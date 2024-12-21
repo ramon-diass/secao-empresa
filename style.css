@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+section{
+    margin: 50px 0;
+    background-color: #e3e3e3;
+    padding: 20px 0;
+}
+
+.apresentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pergunta{
+    width: 50%;
+    text-align: center;
+}
+
+.pergunta h2{
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #EA6524;
+}
+
+.pergunta .img-pergunta img{
+    width: 300px;
+}
+
+.resposta{
+    width: 50%;
+    text-align: justify;
+}
+
+.resposta h1{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #EA6524;
+}
+
+.resposta p{
+    margin-bottom: 30px;
+}
+
+.resposta p i{
+    color: #EA6524;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.info .info-box{
+    display: flex;
+}
+
+.info p{
+    font-size: 20px;
+}
+
+.info-box .mais{
+    color: #EA6524;
+    font-size: 3em;
+}
+
+.info-box .txt-info{
+    align-self: center;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.info-box .txt-info span{
+    display: block;
+}
+
+.missao-visao{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mv-box{
+    flex: 0 0 200px;
+    text-align: center;
+    padding: 30px 0 10px 0;
+}
+
+.mv-box .top-box i{
+    font-size: 50px;
+    color: #EA6524;
+}
+
+.mv-box .top-box h4{
+    padding: 10px 0 30px 0;
+    color: #EA6524;
+}
+
+.mv-box .bottom-box p{
+    margin-bottom: 10px;
+}
